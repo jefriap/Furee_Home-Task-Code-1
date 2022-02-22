@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">Home Test Code Furee</string>
     <string name="title_activity_get_started">GetStartedActivity</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tempus, sem vitae convallis imperdiet, lectus nunc pharetra diam, ac rhoncus quam eros eu risus.</string>
+    <string name="title_activity_detail_screen">DetailScreenActivity</string>
 </resources>

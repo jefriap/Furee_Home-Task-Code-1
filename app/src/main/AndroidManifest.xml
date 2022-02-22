@@ -13,21 +13,25 @@
         android:theme="@style/Theme.HomeTestCodeFuree"
         android:usesCleartextTraffic="true">
         <activity
-            android:name=".getstarted.GetStartedActivity"
-            android:exported="true"
-            android:label="@string/title_activity_get_started"
-            android:theme="@style/Theme.HomeTestCodeFuree"/>
+            android:name=".ui.detail.DetailScreenActivity"
+            android:exported="false"
+            android:label="@string/title_activity_detail_screen"
+            android:theme="@style/Theme.HomeTestCodeFuree" />
         <activity
-            android:name=".main.MainActivity"
+            android:name=".ui.getstarted.GetStartedActivity"
             android:exported="true"
             android:label="@string/app_name"
-            android:theme="@style/Theme.HomeTestCodeFuree.NoActionBar">
+            android:theme="@style/Theme.HomeTestCodeFuree">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".ui.main.MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.HomeTestCodeFuree.NoActionBar" />
     </application>
 
 </manifest>
